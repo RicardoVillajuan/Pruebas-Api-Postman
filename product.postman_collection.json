@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "5a82af20-b976-4fee-8fe4-366775ed69a9",
+		"name": "product",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8093/product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8093/product",
+					"host": [
+						"localhost"
+					],
+					"port": "8093",
+					"path": [
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8093/product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"type\": \"Ejemplo\",\r\n     \"name\": \"Ejemplo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8093/product",
+					"host": [
+						"localhost"
+					],
+					"port": "8093",
+					"path": [
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8093/product",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"type\": \"Ejemplo\",\r\n     \"name\": \"ejemplo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8093/product/",
+					"host": [
+						"localhost"
+					],
+					"port": "8093",
+					"path": [
+						"product",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8093/product",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"type\": \"Ejemplo\",\r\n     \"name\": \"Ejemplos\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8093/product/6206760ee1a3926be69f829f",
+					"host": [
+						"localhost"
+					],
+					"port": "8093",
+					"path": [
+						"product",
+						"6206760ee1a3926be69f829f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8093/product/620675dce1a3926be69f829c",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8093/product/620675dce1a3926be69f829c",
+					"host": [
+						"localhost"
+					],
+					"port": "8093",
+					"path": [
+						"product",
+						"620675dce1a3926be69f829c"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

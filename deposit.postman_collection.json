@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "cd2c1617-3465-4dc8-ad8e-3e1171e605eb",
+		"name": "deposit",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8096/deposits",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numsubmit\": \"300328331\",\r\n    \"numreceive\": \"815790700\",\r\n    \"ammount\": \"10\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8096/deposits",
+					"host": [
+						"localhost"
+					],
+					"port": "8096",
+					"path": [
+						"deposits"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8096/deposits",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"621e7c1bc6382d3850ec897f\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8096/deposits/card/652782448/219001287/100",
+					"host": [
+						"localhost"
+					],
+					"port": "8096",
+					"path": [
+						"deposits",
+						"card",
+						"652782448",
+						"219001287",
+						"100"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

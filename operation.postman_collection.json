@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "37d61ab0-9632-4482-94d1-6733b2280685",
+		"name": "operation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8101/operation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"phonenumbersubmit\": \"951502131\",\r\n    \"phonenumberreceive\": \"951504792\",\r\n    \"balance\": \"4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8101/operation",
+					"host": [
+						"localhost"
+					],
+					"port": "8101",
+					"path": [
+						"operation"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

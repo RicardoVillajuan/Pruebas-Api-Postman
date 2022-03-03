@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "e1dd9bfd-7d57-4808-841b-964f78c2ec6c",
+		"name": "movement",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8098/movement",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idcustomer\": \"123\",\r\n    \"typemovement\": \"Retiro\",\r\n    \"ammount\": \"89\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8098/movement",
+					"host": [
+						"localhost"
+					],
+					"port": "8098",
+					"path": [
+						"movement"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8098/movement/findbydate?startdate=2022-02-23&enddate=2022-02-23&idproduct=620675dce1a3926be69f829c",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8098/movement/findbydate?startdate=2022-02-23&enddate=2022-02-23&idproduct=620675dce1a3926be69f829c",
+					"host": [
+						"localhost"
+					],
+					"port": "8098",
+					"path": [
+						"movement",
+						"findbydate"
+					],
+					"query": [
+						{
+							"key": "startdate",
+							"value": "2022-02-23"
+						},
+						{
+							"key": "enddate",
+							"value": "2022-02-23"
+						},
+						{
+							"key": "idproduct",
+							"value": "620675dce1a3926be69f829c"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

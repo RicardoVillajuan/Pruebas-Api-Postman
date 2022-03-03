@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "0af71272-1b1b-4bfc-bb23-57a0bdd2a3be",
+		"name": "card",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8100/card",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cardnumber\": \"455556762534\",\r\n    \"cvc\": \"210\",\r\n    \"accountnumber\":[\r\n        {\r\n            \"accountnumber\": \"652782448\"\r\n        },\r\n        {\r\n            \"accountnumber\": \"912201718\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8100/card",
+					"host": [
+						"localhost"
+					],
+					"port": "8100",
+					"path": [
+						"card"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8100/card/621db89eb256b11c769e1a96",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8100/card/621db89eb256b11c769e1a96",
+					"host": [
+						"localhost"
+					],
+					"port": "8100",
+					"path": [
+						"card",
+						"621db89eb256b11c769e1a96"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8100/card",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8100/card",
+					"host": [
+						"localhost"
+					],
+					"port": "8100",
+					"path": [
+						"card"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

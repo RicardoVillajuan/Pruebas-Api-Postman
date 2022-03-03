@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "df4c7046-e506-4d7c-88e0-fa804a6b1b03",
+		"name": "accountyunki",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8099/accountyunki",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"phonenumber\": \"951504792\",\r\n\t\"typedocument\": \"DNI\",\r\n\t\"documentnumber\": \"71850382\",\r\n\t\"imei\": \"9823487583922393\",\r\n\t\"email\": \"richard@gmail.com\",\r\n\t\"balance\": \"0\",\r\n\t\"idaccount\": \"123456789\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8102/accountyunki",
+					"host": [
+						"localhost"
+					],
+					"port": "8102",
+					"path": [
+						"accountyunki"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8099/accountyunki",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"phonenumber\": \"951504792\",\r\n\t\"typedocument\": \"DNI\",\r\n\t\"documentnumber\": \"71850382\",\r\n\t\"imei\": \"9823487583922393\",\r\n\t\"email\": \"richard@gmail.com\",\r\n\t\"balance\": \"0\",\r\n\t\"idaccount\": \"123456789\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8102/accountyunki",
+					"host": [
+						"localhost"
+					],
+					"port": "8102",
+					"path": [
+						"accountyunki"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8099/accountyunki/621a603a6d4f2153f17a6925",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"phonenumber\": \"951504792\",\r\n\t\"typedocument\": \"DNI\",\r\n\t\"documentnumber\": \"71850382\",\r\n\t\"imei\": \"9823487583922393\",\r\n\t\"email\": \"richard@gmail.com\",\r\n\t\"balance\": \"0\",\r\n\t\"idaccount\": \"123456789\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8102/accountyunki/621a603a6d4f2153f17a6925",
+					"host": [
+						"localhost"
+					],
+					"port": "8102",
+					"path": [
+						"accountyunki",
+						"621a603a6d4f2153f17a6925"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8099/accountyunki/621a603a6d4f2153f17a6925",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8102/accountyunki/621a603a6d4f2153f17a6925",
+					"host": [
+						"localhost"
+					],
+					"port": "8102",
+					"path": [
+						"accountyunki",
+						"621a603a6d4f2153f17a6925"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

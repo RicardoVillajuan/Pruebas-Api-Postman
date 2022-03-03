@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "1ce8f46d-1383-486d-9823-87dd9af449a9",
+		"name": "customers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8094/customer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8094/customer",
+					"host": [
+						"localhost"
+					],
+					"port": "8094",
+					"path": [
+						"customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8094/customer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"typecustomer\": \"PERSONAL\",\r\n    \"fullname\": \"Maria Juana Lorena\",\r\n    \"email\": \"mariaa@gmail.com\",\r\n    \"profile\": \"VIP\",\r\n    \"typedocument\": \"DNI\",\r\n    \"documentnumber\": \"71850381\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8094/customer",
+					"host": [
+						"localhost"
+					],
+					"port": "8094",
+					"path": [
+						"customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8094/customer",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"typecustomer\": \"PERSONAL\",\r\n    \"fullname\": \"Maria Juana Lorena\",\r\n    \"email\": \"mariaa@gmail.com\",\r\n    \"profile\": \"VIP\",\r\n    \"typedocument\": \"DNI\",\r\n    \"documentnumber\": \"71850381\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8094/customer/620da8d0881c8c1ceda92cb7",
+					"host": [
+						"localhost"
+					],
+					"port": "8094",
+					"path": [
+						"customer",
+						"620da8d0881c8c1ceda92cb7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8094/customer/",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8094/customer/",
+					"host": [
+						"localhost"
+					],
+					"port": "8094",
+					"path": [
+						"customer",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
